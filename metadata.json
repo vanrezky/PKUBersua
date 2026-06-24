@@ -1,0 +1,6 @@
+{
+  "name": "PKUBersua",
+  "description": "Landing page website resmi komunitas lokal Pekanbaru PKUBersua - Ruang temu digital dan offline warga Pekanbaru.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
