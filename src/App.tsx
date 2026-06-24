@@ -15,7 +15,7 @@ import { Footer } from './components/Footer';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#FDFCF8] flex flex-col font-body text-[#1A1A1A] overflow-x-hidden select-none">
+    <div className="min-h-screen bg-[#FFFDF5] flex flex-col font-body text-[#2F1F0F] overflow-x-hidden select-none">
       {/* 1. Header / Navbar */}
       <Navbar />
 

@@ -29,12 +29,12 @@ export const DUMMY_MEETUP: MeetupSchedule = {
 };
 
 export const MINI_AVATARS = [
-  { name: 'Rizky', color: 'bg-amber-100 text-amber-800' },
-  { name: 'Siti', color: 'bg-blue-100 text-blue-800' },
-  { name: 'Ilham', color: 'bg-emerald-100 text-emerald-800' },
-  { name: 'Nadya', color: 'bg-rose-100 text-rose-800' },
-  { name: 'Dani', color: 'bg-purple-100 text-purple-800' },
-  { name: '+42', color: 'bg-slate-800 text-white font-bold' },
+  { name: 'Rizky', color: 'bg-amber-100 text-amber-900' },
+  { name: 'Siti', color: 'bg-[#FFF3BF] text-[#2F1F0F] border-[#F1D98A]' },
+  { name: 'Ilham', color: 'bg-orange-100 text-orange-900' },
+  { name: 'Nadya', color: 'bg-rose-100 text-rose-900' },
+  { name: 'Dani', color: 'bg-[#FFF8E1] text-[#7A6240]' },
+  { name: '+42', color: 'bg-[#3A240B] text-[#FFFDF5] font-bold' },
 ];
 
 export const PROBLEM_ITEMS: ProblemItem[] = [
@@ -80,7 +80,7 @@ export const ACTIVITIES: ActivityCard[] = [
       'Meetup santai untuk ngobrol, kenalan, dan cari teman baru di Pekanbaru.',
     badge: 'Santai & Rutin',
     icon: 'coffee',
-    colorAccent: 'border-amber-400 bg-amber-50/50 text-amber-900',
+    colorAccent: 'border-[#F59E0B] bg-[#FFF8E1] text-[#2F1F0F]',
   },
   {
     title: 'Sharing Session',
@@ -88,7 +88,7 @@ export const ACTIVITIES: ActivityCard[] = [
       'Sesi berbagi pengalaman seputar kerja, teknologi, bisnis kecil, kreatif, dan kehidupan sehari-hari.',
     badge: 'Belajar Bareng',
     icon: 'users',
-    colorAccent: 'border-blue-400 bg-blue-50/50 text-blue-900',
+    colorAccent: 'border-[#F1D98A] bg-[#FFF3BF] text-[#2F1F0F]',
   },
   {
     title: 'Kolaborasi Lokal',
@@ -96,7 +96,7 @@ export const ACTIVITIES: ActivityCard[] = [
       'Tempat menemukan partner, teman diskusi, atau peluang kolaborasi antar warga Pekanbaru.',
     badge: 'Peluang & Karya',
     icon: 'handshake',
-    colorAccent: 'border-orange-400 bg-orange-50/50 text-orange-900',
+    colorAccent: 'border-[#EA580C] bg-orange-50/80 text-[#2F1F0F]',
   },
 ];
 
@@ -115,20 +115,20 @@ export const TESTIMONIALS: TestimonialItem[] = [
       'Awalnya cuma ikut ngobrol, ternyata ketemu banyak orang yang satu frekuensi.',
     name: 'Anggota Komunitas',
     role: 'Software Engineer & Freelancer',
-    avatarBg: 'bg-blue-600 text-white',
+    avatarBg: 'bg-[#EA580C] text-white',
   },
   {
     quote:
       'Enak karena suasananya santai. Tidak harus formal, tapi tetap dapat insight.',
     name: 'Warga Pekanbaru',
     role: 'Pebisnis Kecil & F&B',
-    avatarBg: 'bg-amber-500 text-white',
+    avatarBg: 'bg-[#F59E0B] text-[#2F1F0F]',
   },
   {
     quote:
       'Dari kenalan kecil, bisa jadi diskusi kerjaan, project, dan kolaborasi.',
     name: 'Teman Bersua',
     role: 'UI/UX Designer',
-    avatarBg: 'bg-indigo-600 text-white',
+    avatarBg: 'bg-[#3A240B] text-[#FFF3BF]',
   },
 ];
