@@ -22,7 +22,7 @@ export const Navbar: React.FC = () => {
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-8 text-sm font-medium opacity-70">
+        <nav className="hidden lg:flex items-center gap-8 text-sm font-medium opacity-70">
           {NAV_ITEMS.map((item) => (
             <a
               key={item.label}
@@ -35,7 +35,7 @@ export const Navbar: React.FC = () => {
         </nav>
 
         {/* Action Button */}
-        <div className="hidden md:flex items-center">
+        <div className="hidden lg:flex items-center">
           <a
             href="#gabung"
             className="px-6 py-2.5 bg-[#2B59FF] text-white rounded-full text-sm font-bold shadow-lg shadow-blue-500/20 hover:bg-[#4D74FF] active:scale-95 transition-all"
@@ -45,7 +45,7 @@ export const Navbar: React.FC = () => {
         </div>
 
         {/* Mobile menu button */}
-        <div className="flex md:hidden">
+        <div className="flex lg:hidden">
           <button
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -59,7 +59,7 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Navigation Drawer */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-b border-black/5 bg-white px-6 pt-4 pb-6 space-y-3 shadow-xl animate-in slide-in-from-top-5 duration-200">
+        <div className="lg:hidden border-b border-black/5 bg-white px-6 pt-4 pb-6 space-y-3 shadow-xl animate-in slide-in-from-top-5 duration-200">
           <nav className="flex flex-col space-y-2">
             {NAV_ITEMS.map((item) => (
               <a

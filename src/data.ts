@@ -25,7 +25,7 @@ export const DUMMY_MEETUP: MeetupSchedule = {
   date: 'Sabtu Ini',
   time: '16.00 WIB - Selesai',
   location: 'Kedai Kopi Lokal Rumbai / Gobah',
-  badges: ['Ngopi', 'Sharing', 'Kolaborasi'],
+  badges: ['Ngopi', 'Info', 'Kolaborasi'],
 };
 
 export const MINI_AVATARS = [
@@ -40,19 +40,19 @@ export const MINI_AVATARS = [
 export const PROBLEM_ITEMS: ProblemItem[] = [
   {
     number: '01',
-    title: 'Banyak orang punya skill, tapi tidak punya circle',
+    title: 'Banyak orang punya skill, tapi belum punya circle.',
   },
   {
     number: '02',
-    title: 'Ada ide bagus, tapi bingung mulai dari mana',
+    title: 'Ada ide bagus, tapi bingung mau cerita ke siapa.',
   },
   {
     number: '03',
-    title: 'Mau ikut komunitas, tapi takut terlalu formal',
+    title: 'Mau ikut komunitas, tapi takut suasananya terlalu formal.',
   },
   {
     number: '04',
-    title: 'Pengen ngobrol dan berkembang bareng orang lokal',
+    title: 'Pengen ngobrol dan berkembang bareng orang lokal.',
   },
 ];
 

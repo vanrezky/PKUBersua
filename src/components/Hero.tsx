@@ -74,13 +74,13 @@ export const Hero: React.FC = () => {
           </div>
 
           {/* Right Column: Editorial Bento Style Card */}
-          <div className="lg:col-span-5 relative mt-8 lg:mt-0">
+          <div className="lg:col-span-5 relative mt-8 lg:mt-0 pb-6 sm:pb-8">
             {/* Decorative background card layer */}
             <div className="absolute inset-0 bg-[#FFC107] rounded-[40px] transform rotate-2 scale-[1.02] -z-10 shadow-lg opacity-80 transition-transform hover:rotate-4"></div>
             <div className="absolute inset-0 bg-[#2B59FF] rounded-[40px] transform -rotate-1 scale-[1.01] -z-10 shadow-md opacity-15"></div>
 
             {/* Main Interactive Card */}
-            <div className="bg-white rounded-[40px] p-8 border border-black/5 shadow-sm relative z-10 overflow-hidden space-y-6">
+            <div className="bg-white rounded-[40px] p-6 sm:p-8 pb-16 sm:pb-18 border border-black/5 shadow-sm relative z-10 overflow-hidden space-y-6">
               
               {/* Top Bar of Card */}
               <div className="flex items-center justify-between pb-4 border-b border-black/5">
